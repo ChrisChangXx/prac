@@ -1,10 +1,10 @@
-#使用方法
+# 使用方法
 
-##1.将hsdis-amd64.dll文件放入jdk安装目录下
+## 1.将hsdis-amd64.dll文件放入jdk安装目录下
 
 `C:\Program Files\Java\jdk1.8.0_221\jre\bin\server`
 
-##2.VM options参数为
+## 2.VM options参数为
 
 `-server -XX:+UnlockDiagnosticVMOptions -XX:+TraceClassLoading  -XX:+PrintAssembly -XX:+LogCompilation -XX:LogFile=live.log`
 
