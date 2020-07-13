@@ -2,7 +2,7 @@ package com.chris.prac.concurrency;
 
 import java.util.concurrent.TimeUnit;
 
-public class volatileDemo {
+public class VolatileDemo {
     final static int MAX = 5;
     static volatile int INIT_VALUE = 0;
 
