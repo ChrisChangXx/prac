@@ -13,3 +13,8 @@ spring:
     is-read-body: true
     # 是否在初始化配置时打印版本字符画
     is-v: true
+
+  #redis
+  redis:
+    #服务器地址
+    host: 116.62.6.204
