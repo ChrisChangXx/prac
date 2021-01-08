@@ -31,6 +31,7 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- sa-token -->
         <dependency>
             <groupId>cn.dev33</groupId>
             <artifactId>sa-token</artifactId>
@@ -44,12 +45,26 @@
             <version>RELEASE</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <!-- lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.12</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!-- swagger2 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+
+        <!-- swagger2-ui -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
         </dependency>
 
         <dependency>
