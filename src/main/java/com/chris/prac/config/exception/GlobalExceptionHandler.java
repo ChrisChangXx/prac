@@ -15,6 +15,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     public BaseResult globalException(Exception ex) {
         log.error("globalException:" + ex.getMessage());
+        ex.printStackTrace();
         return new BaseResult(BaseResult.RESULT_FAIL, ex.getMessage());
     }
 }
