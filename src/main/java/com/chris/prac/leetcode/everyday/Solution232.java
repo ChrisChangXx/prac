@@ -1,4 +1,4 @@
-package com.chris.prac.leetcode;
+package com.chris.prac.leetcode.everyday;
 
 import java.util.Iterator;
 import java.util.Stack;
