@@ -1,4 +1,4 @@
-package com.chris.prac.leetcode.stack;
+package com.chris.prac.leetcode.everyday;
 
 import java.util.HashMap;
 import java.util.Map;
