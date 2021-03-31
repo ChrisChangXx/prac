@@ -1,4 +1,4 @@
-package com.chris.prac.util;
+package com.chris.prac.test;
 
 import java.util.Objects;
 
