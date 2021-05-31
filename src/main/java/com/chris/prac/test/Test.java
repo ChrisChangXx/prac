@@ -41,6 +41,39 @@ public class Test {
     }
 
     public static void main(String[] args) {
+        System.out.println(isPowerOfFour(5));
+    }
 
+    public static boolean isPowerOfFour(int n) {
+        if (n == 0) {
+            return true;
+        }
+        if (n == 1) {
+            return false;
+        }
+
+        int res = n;
+        int num = 0;
+        int count = 0;
+        while (res != 0) {
+            num += res & 1;
+            if (num > 1) {
+                return false;
+            }
+            res >>= 1;
+            count++;
+        }
+
+        return count % 2 == 1;
+    }
+
+    private static int hammingDistance(int x, int y) {
+        int res = x ^ y;
+        int num = 0;
+        while (res != 0) {
+            num += res & 1;
+            res >>= 1;
+        }
+        return num;
     }
 }
