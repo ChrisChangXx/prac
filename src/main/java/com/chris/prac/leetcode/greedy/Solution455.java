@@ -1,4 +1,4 @@
-package com.chris.prac.leetcode.everyday;
+package com.chris.prac.leetcode.greedy;
 
 /**
  * solution455
