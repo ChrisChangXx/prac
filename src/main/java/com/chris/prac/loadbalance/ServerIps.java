@@ -1,4 +1,4 @@
-package com.chris.prac.leetcode.loadbalance;
+package com.chris.prac.loadbalance;
 
 import java.util.ArrayList;
 import java.util.HashMap;
